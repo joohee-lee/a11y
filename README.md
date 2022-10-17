@@ -12,3 +12,4 @@ a11y test
           블릿의 성격이나 무의미한 성격의 svg 요소라면 css 로 디자인을 한다. 
           
   
+### 3. label + input text 형식일 경우, id와 for 값으로 연결하게 되면 
