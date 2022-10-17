@@ -13,3 +13,14 @@ a11y test
           
   
 ### 3. label + input text 형식일 경우, id와 for 값으로 연결하게 되면 
+    `
+    IOS 16 이슈 
+
+    lable + input-text 조합에서는 id for 연결 생략 
+    lable + input-text for + id 연결시, label focus 가 가질 않음. 
+    그러나, <label for="a"> text <span>*</span></lable><input text="" id="a"> 이런경우는 lable 안에 focus 발생.
+    
+    문제가 크게 되지 않으니 lable + input text 조합시에는 id for 연결 생략 
+    
+    ex) input.html
+    `
